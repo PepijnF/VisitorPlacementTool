@@ -1,0 +1,16 @@
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser.deps.json
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser.runtimeconfig.json
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser.runtimeconfig.dev.json
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser.dll
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/ref/VisitorPlacementVisualiser.dll
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/bin/Debug/net5.0/VisitorPlacementVisualiser.pdb
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.csproj.AssemblyReference.cache
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.GeneratedMSBuildEditorConfig.editorconfig
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.AssemblyInfoInputs.cache
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.AssemblyInfo.cs
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.csproj.CoreCompileInputs.cache
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.dll
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/ref/VisitorPlacementVisualiser.dll
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.pdb
+/home/pepijn/RiderProjects/VisitorPlacementTool/VisitorPlacementVisualiser/obj/Debug/net5.0/VisitorPlacementVisualiser.genruntimeconfig.cache

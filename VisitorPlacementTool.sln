@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPlacementTool", "VisitorPlacementTool\VisitorPlacementTool.csproj", "{F5190ED4-6BD0-45CF-A675-1461BBDF0A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPlacementTool.Specs", "VisitorPlacementTool.Specs\VisitorPlacementTool.Specs.csproj", "{B35F5F3C-5008-4687-A5C9-BE61157CA634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPlacementVisualiser", "VisitorPlacementVisualiser\VisitorPlacementVisualiser.csproj", "{0B1652D0-8577-4908-82FF-A55BF5EC1BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5190ED4-6BD0-45CF-A675-1461BBDF0A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5190ED4-6BD0-45CF-A675-1461BBDF0A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5190ED4-6BD0-45CF-A675-1461BBDF0A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5190ED4-6BD0-45CF-A675-1461BBDF0A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35F5F3C-5008-4687-A5C9-BE61157CA634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35F5F3C-5008-4687-A5C9-BE61157CA634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35F5F3C-5008-4687-A5C9-BE61157CA634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35F5F3C-5008-4687-A5C9-BE61157CA634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1652D0-8577-4908-82FF-A55BF5EC1BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1652D0-8577-4908-82FF-A55BF5EC1BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1652D0-8577-4908-82FF-A55BF5EC1BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1652D0-8577-4908-82FF-A55BF5EC1BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
