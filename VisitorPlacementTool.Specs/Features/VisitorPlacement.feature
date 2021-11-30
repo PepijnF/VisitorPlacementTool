@@ -1,5 +1,5 @@
 Feature: VisitorPlacement
-	Simple calculator for adding two numbers
+	Visitor placment tool
 
 @mytag
 Scenario: There are more visitors than chairs
