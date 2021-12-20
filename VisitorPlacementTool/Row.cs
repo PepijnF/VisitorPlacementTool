@@ -38,6 +38,11 @@ namespace VisitorPlacementTool
             return _visitors.Exists(match);
         }
 
+        public bool IsVisitorSeated(Visitor visitor)
+        {
+            return _visitors.Contains(visitor);
+        }
+
         public override string ToString()
         {
             return base.ToString();

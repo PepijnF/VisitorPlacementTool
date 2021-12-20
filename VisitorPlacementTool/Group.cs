@@ -7,11 +7,10 @@ namespace VisitorPlacementTool
     public class Group
     {
         public Guid Id { get; }
-        public readonly List<Visitor> Visitors = new List<Visitor>();
-        public int NotPlaced
-        {
-            get => Visitors.FindAll(v => v.IsPlaced == false).Count;
-        }
+        private List<Visitor> _visitors = new List<Visitor>();
+        public List<Visitor> NotPlaced => _visitors.FindAll(v => v.IsPlaced == false);
+
+        public List<Visitor> Children => _visitors.FindAll(v => v.IsChild);
 
         public Group()
         {
@@ -21,12 +20,12 @@ namespace VisitorPlacementTool
         public Group(List<Visitor> visitors)
         {
             Id = Guid.NewGuid();
-            Visitors = visitors;
+            _visitors = visitors;
         }
 
         public void AddVisitor(Visitor visitor)
         {
-            Visitors.Add(visitor);
+            _visitors.Add(visitor);
         }
     }
 }

@@ -1,24 +1,10 @@
 @startuml
 start
-
-repeat
-    if(Visitor.GroupId != null) then (true)
-        :Find group of the visitor;
-        if(Visitor.Age > 12) then (true)
-        else (false)
-        endif
-    else (false)
-    endif 
-
-
-end
+if(are there groups?) then (yes)
+    :start with placing the groups first;
+    repeat :iterate over all available chairs;
+        
+    repeat while (more available chairs)
+else (no)
+    :start with placing the individuals; 
 @enduml
-
-3/6/9
-4/8/12
-5/10/15
-6/12/18
-7/14/21
-8/16/24
-9/18/27
-10/20/30

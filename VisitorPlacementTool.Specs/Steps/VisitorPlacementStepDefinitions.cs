@@ -80,10 +80,15 @@ namespace VisitorPlacementTool.Specs.Steps
                 }
             } else if (parm == "not all")
             {
-                foreach (var visitor in _eventManager.Visitors)
+                bool result = false;
+                foreach (var section in _event.Sections)
                 {
-                    Assert.True(visitor.IsPlaced);
+                    foreach (var row in section.Rows)
+                    {
+                        result = row.FreeSeats() > 0;
+                    }
                 }
+                Assert.True(result);
             }
         }
 

@@ -9,6 +9,8 @@ namespace VisitorPlacementTool
         // TODO change this into function
         public bool IsPlaced = false;
 
+        public bool IsChild;
+
         public Visitor()
         {
             Id = Guid.NewGuid();

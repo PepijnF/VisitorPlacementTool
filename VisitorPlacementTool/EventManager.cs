@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace VisitorPlacementTool
@@ -17,21 +18,16 @@ namespace VisitorPlacementTool
 
         public void PlaceGroups()
         {
-            foreach (var section in Event.Sections)
+            foreach (var group in Groups)
             {
-                foreach (var group in Groups)
+                if (Event.FreeSeats() >= group.NotPlaced.Count)
                 {
-                    if (section.FreeSeats() >= group.NotPlaced)
+                    while (group.NotPlaced.Count > 0)
                     {
-                        foreach (var visitor in group.Visitors)
+                        var section = Event.SectionWithMostFreeSpace();
+                        foreach (var visitor in group.NotPlaced)
                         {
-                            foreach (var row in section.Rows)
-                            {
-                                if (!visitor.IsPlaced)
-                                {
-                                    visitor.IsPlaced = row.TryPlaceVisitor(visitor);
-                                }
-                            }
+                            visitor.IsPlaced = section.TryPlaceVisitor(visitor);
                         }
                     }
                 }
@@ -40,22 +36,25 @@ namespace VisitorPlacementTool
 
         public void PlaceVisitors()
         {
-            foreach (var section in Event.Sections)
+            foreach (var visitor in Visitors)
             {
-                foreach (var row in section.Rows)
+                foreach (var section in Event.SectionsWithFreeSeates(1))
                 {
-                    foreach (var visitor in Visitors)
+                    if (!visitor.IsPlaced)
                     {
-                        if (!visitor.IsPlaced)
-                        {
-                            if (!row.TryPlaceVisitor(visitor))
-                            {
-                                break;
-                            }
-
-                            visitor.IsPlaced = true;
-                        }
+                        visitor.IsPlaced = section.TryPlaceVisitor(visitor);
                     }
+                }
+            }
+        }
+
+        public void PlaceChildren()
+        {
+            foreach (var group in Groups)
+            {
+                foreach (var child in group.Children)
+                {
+                    
                 }
             }
         }
